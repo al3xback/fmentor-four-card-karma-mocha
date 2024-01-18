@@ -22,7 +22,7 @@ describe('DOM', () => {
 		}
 	});
 
-	it("should have a title element that equals 'Reliable, efficient delivery' word", () => {
+	it("should have a title element that equals 'Reliable, efficient delivery'", () => {
 		const sectionTitleEl = document.querySelector('.section__title');
 		const sectionTitle = sectionTitleEl.textContent.trim();
 
