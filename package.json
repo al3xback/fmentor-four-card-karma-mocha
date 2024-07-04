@@ -1,8 +1,9 @@
 {
 	"name": "fmentor-four-card-karma-mocha",
+	"private": true,
 	"version": "1.0.0",
-	"description": "four card feature section using karma and mocha",
-	"main": "index.js",
+	"author": "alex <al3xback@gmail.com>",
+	"license": "ISC",
 	"scripts": {
 		"sass-dev": "sass --watch scss/main.scss css/main.css",
 		"sass-prod": "sass scss/main.scss css/main.css --style=compressed --no-source-map",
@@ -13,16 +14,6 @@
 		"test": "karma start",
 		"build": "run-s lint sass-prod postcss"
 	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/al3xback/fmentor-four-card-karma-mocha.git"
-	},
-	"author": "alex <al3xback@gmail.com>",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/al3xback/fmentor-four-card-karma-mocha/issues"
-	},
-	"homepage": "https://github.com/al3xback/fmentor-four-card-karma-mocha#readme",
 	"devDependencies": {
 		"autoprefixer": "^10.4.16",
 		"browserify": "^17.0.0",
