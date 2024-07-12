@@ -9,12 +9,10 @@ const getBodyContent = () => {
 				<div class="container">
 					<section class="section">
 						<div class="section__head">
-							<h2 class="cards-summary__title">
-								Reliable, efficient delivery
-							</h2>
 							<p class="cards-summary__subtitle">
-								<strong>Powered by Technology</strong>
+								Reliable, efficient delivery
 							</p>
+							<h2 class="cards-summary__title">Powered by Technology</h2>
 							<p class="cards-summary__desc">
 								Our Artificial Intelligence powered tools use
 								millions of project data points to ensure that your
